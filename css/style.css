@@ -51,3 +51,20 @@ nav ul li a:hover {
     margin-top: 20px;
     font-size: 25px;
 }
+#projects {
+    display: flex;
+    justify-content: center;
+    background-color: #8698ab;
+}
+.project-tile {
+    margin: 0 20px;
+}
+#projects .project-tile a img {
+    width: 200px;
+    height: 200px;
+}
+@media only screen and (max-width: 600px) {
+    #projects {
+        background-color: aqua;
+    }
+  }
